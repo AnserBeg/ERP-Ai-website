@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaFlow ERP | AI-Powered ERP for Modern Teams</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="logo" href="#hero" aria-label="NovaFlow ERP">
+        <span class="logo-icon">⚡️</span>
+        <span class="logo-text">NovaFlow</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button class="nav__toggle" aria-expanded="false" aria-controls="nav-menu">
+          <span class="sr-only">Toggle menu</span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+          <span class="nav__bar"></span>
+        </button>
+        <ul class="nav__links" id="nav-menu">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <a class="button button--ghost" href="#demo">Log in</a>
+        <a class="button" href="#demo">Book a demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="container hero__content">
+        <div class="hero__copy">
+          <span class="hero__badge">AI-Powered ERP</span>
+          <h1>Bring clarity to every operation with intelligent workflows.</h1>
+          <p>
+            NovaFlow unifies finance, operations, and people management in one adaptive platform.
+            Harness AI copilots to automate decisions, forecast outcomes, and deliver real-time insights to every team.
+          </p>
+          <form class="hero__form">
+            <label class="sr-only" for="email">Work email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your work email" required />
+            <button type="submit" class="button">Get started</button>
+          </form>
+          <div class="hero__social-proof">
+            <img src="https://dummyimage.com/40x40/0f172a/ffffff.png&text=AI" alt="Customer avatar" />
+            <img src="https://dummyimage.com/40x40/0f172a/ffffff.png&text=UX" alt="Customer avatar" />
+            <img src="https://dummyimage.com/40x40/0f172a/ffffff.png&text=IT" alt="Customer avatar" />
+            <p><strong>4,500+</strong> teams trust NovaFlow to orchestrate their operations.</p>
+          </div>
+        </div>
+        <div class="hero__media">
+          <div class="hero__card">
+            <h2>AI Ops Pulse</h2>
+            <p>Suggested actions</p>
+            <ul>
+              <li>
+                <span>Reassign 12 delayed purchase orders</span>
+                <span class="status status--positive">Resolve</span>
+              </li>
+              <li>
+                <span>Forecast cash flow variance</span>
+                <span class="status status--neutral">Review</span>
+              </li>
+              <li>
+                <span>Update workforce capacity plan</span>
+                <span class="status status--alert">Plan</span>
+              </li>
+            </ul>
+          </div>
+          <div class="hero__chart">
+            <div class="chart__header">
+              <h3>Quarterly Revenue</h3>
+              <span class="chip">+26% QoQ</span>
+            </div>
+            <div class="chart__bars" aria-hidden="true">
+              <span style="height: 45%"></span>
+              <span style="height: 60%"></span>
+              <span style="height: 75%"></span>
+              <span style="height: 90%"></span>
+            </div>
+            <p class="chart__footer">AI forecasts predict 34% growth next quarter.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="partners" aria-label="Customer logos">
+      <div class="container partners__grid">
+        <span>Trusted by modern operators at</span>
+        <ul>
+          <li>Orbit Labs</li>
+          <li>Lumos Freight</li>
+          <li>Bluewave Retail</li>
+          <li>Atlas Manufacturing</li>
+          <li>Neon Finance</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Why NovaFlow</span>
+          <h2>Operate faster with AI copilots embedded in every workflow.</h2>
+          <p>Turn operational noise into actionable insights across finance, supply chain, and workforce management.</p>
+        </div>
+        <div class="features__grid">
+          <article class="feature-card">
+            <span class="feature-card__icon">🤖</span>
+            <h3>Predictive copilots</h3>
+            <p>Give your teams AI copilots that proactively surface risks, draft responses, and launch automations in context.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__icon">📊</span>
+            <h3>Unified analytics</h3>
+            <p>Connect data streams across ERP modules with instant, explainable dashboards that update themselves.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__icon">🔐</span>
+            <h3>Enterprise-grade trust</h3>
+            <p>Ensure compliance with SOC 2, ISO 27001, and customizable access controls built for complex organizations.</p>
+          </article>
+          <article class="feature-card">
+            <span class="feature-card__icon">⚙️</span>
+            <h3>No-code automation</h3>
+            <p>Empower operators to orchestrate workflows, approvals, and AI agents without waiting on engineering.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="integrations" id="integrations">
+      <div class="container integrations__content">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Seamless integrations</span>
+          <h2>Plug NovaFlow into the tools you already rely on.</h2>
+          <p>Connect ERP data with CRM, HRIS, and financial systems in minutes using our 120+ prebuilt connectors.</p>
+        </div>
+        <div class="integrations__grid">
+          <div class="integration-card">
+            <h3>Finance Cloud</h3>
+            <p>Sync GL entries, automate reconciliation, and surface anomalies with one click.</p>
+          </div>
+          <div class="integration-card">
+            <h3>SupplyNet</h3>
+            <p>Monitor inventory health and coordinate suppliers with predictive lead times.</p>
+          </div>
+          <div class="integration-card">
+            <h3>PeopleOS</h3>
+            <p>Bring workforce scheduling, payroll, and capacity planning into one live source of truth.</p>
+          </div>
+          <div class="integration-card">
+            <h3>Open API</h3>
+            <p>Build custom experiences with our GraphQL and REST APIs backed by detailed documentation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="metrics" aria-label="Platform metrics">
+      <div class="container metrics__grid">
+        <div>
+          <h3>35%</h3>
+          <p>Average reduction in cycle time after deploying NovaFlow across finance and ops.</p>
+        </div>
+        <div>
+          <h3>50 hrs</h3>
+          <p>Time saved per week with AI-driven forecasting, scenario modeling, and auto-reports.</p>
+        </div>
+        <div>
+          <h3>99.9%</h3>
+          <p>Uptime guarantee supported by enterprise-grade infrastructure and monitoring.</p>
+        </div>
+        <div>
+          <h3>120+</h3>
+          <p>Native integrations with your existing ERP ecosystem and data warehouse.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Customer stories</span>
+          <h2 id="testimonials-title">Teams that scale trust NovaFlow.</h2>
+        </div>
+        <div class="testimonials__grid">
+          <figure class="testimonial-card">
+            <blockquote>
+              “NovaFlow eliminated blind spots between procurement and finance. Our AI assistant now flags issues days before they impact customers.”
+            </blockquote>
+            <figcaption>
+              <strong>Priya Patel</strong>
+              <span>COO, Lumos Freight</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <blockquote>
+              “We cut month-end close by 60% while giving every department real-time dashboards. The AI copilots are our new team members.”
+            </blockquote>
+            <figcaption>
+              <strong>Michael Chen</strong>
+              <span>VP Finance, Orbit Labs</span>
+            </figcaption>
+          </figure>
+          <figure class="testimonial-card">
+            <blockquote>
+              “NovaFlow’s automation freed our analysts to focus on strategy. We launch new workflows in hours, not sprints.”
+            </blockquote>
+            <figcaption>
+              <strong>Elena García</strong>
+              <span>Head of Ops, Bluewave Retail</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-heading__eyebrow">Pricing</span>
+          <h2>Scale with transparent plans designed for growth.</h2>
+        </div>
+        <div class="pricing__grid">
+          <article class="pricing-card">
+            <h3>Launch</h3>
+            <p class="pricing-card__price">$79<span>/month</span></p>
+            <ul>
+              <li>Core ERP modules</li>
+              <li>Automation library</li>
+              <li>Standard analytics</li>
+            </ul>
+            <a class="button button--ghost" href="#demo">Start free trial</a>
+          </article>
+          <article class="pricing-card pricing-card--accent">
+            <span class="pricing-card__badge">Most popular</span>
+            <h3>Scale</h3>
+            <p class="pricing-card__price">$249<span>/month</span></p>
+            <ul>
+              <li>Advanced AI copilots</li>
+              <li>Unlimited automations</li>
+              <li>Premium integrations</li>
+            </ul>
+            <a class="button" href="#demo">Talk to sales</a>
+          </article>
+          <article class="pricing-card">
+            <h3>Enterprise</h3>
+            <p class="pricing-card__price">Custom</p>
+            <ul>
+              <li>Dedicated success team</li>
+              <li>SOC 2 &amp; HIPAA compliance</li>
+              <li>On-prem &amp; hybrid options</li>
+            </ul>
+            <a class="button button--ghost" href="#demo">Contact us</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="resources" id="resources">
+      <div class="container resources__grid">
+        <article class="resource-card">
+          <h3>Playbook: AI in ERP Transformation</h3>
+          <p>Explore frameworks and best practices from top operators deploying AI copilots.</p>
+          <a href="#">Download the guide</a>
+        </article>
+        <article class="resource-card">
+          <h3>On-demand demo</h3>
+          <p>Watch how NovaFlow automates forecasting, procurement, and workforce planning.</p>
+          <a href="#">Watch now</a>
+        </article>
+        <article class="resource-card">
+          <h3>Security &amp; compliance</h3>
+          <p>Review our trust center with audit reports, data policies, and architecture docs.</p>
+          <a href="#">Visit trust center</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="cta" id="demo">
+      <div class="container cta__content">
+        <div>
+          <h2>Experience NovaFlow in action.</h2>
+          <p>Bring your team for a personalized walkthrough tailored to your workflows.</p>
+        </div>
+        <a class="button button--inverse" href="#">Book a live demo</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div>
+        <a class="logo" href="#hero" aria-label="NovaFlow ERP">
+          <span class="logo-icon">⚡️</span>
+          <span class="logo-text">NovaFlow</span>
+        </a>
+        <p>AI-native ERP powering finance, operations, and people teams with intelligent automation.</p>
+      </div>
+      <nav aria-label="Footer links">
+        <h3>Product</h3>
+        <ul>
+          <li><a href="#features">Platform</a></li>
+          <li><a href="#integrations">Integrations</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#resources">Roadmap</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer resources">
+        <h3>Company</h3>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Partners</a></li>
+          <li><a href="#">Press</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer legal">
+        <h3>Resources</h3>
+        <ul>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Status</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container footer__bottom">
+      <p>&copy; <span id="year"></span> NovaFlow, Inc. All rights reserved.</p>
+      <div class="footer__legal-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Accessibility</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
